@@ -1,0 +1,19 @@
+.header {
+  display: block;
+  background-color: red;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  height: 160px;
+  left: 0;
+}
+
+.acesso-rapido {
+  background-color: rgb(14, 102, 102);
+  height: 34px;
+}
+
+.navbar {
+  
+}
