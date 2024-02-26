@@ -1,19 +1,60 @@
 .header {
   display: block;
-  background-color: red;
   top: 0;
-  position: fixed;
+  position: absolute;
   width: 100%;
   margin: 0;
-  height: 160px;
   left: 0;
 }
 
 .acesso-rapido {
   background-color: rgb(14, 102, 102);
-  height: 34px;
+  height: 2.5em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+}
+
+.logo-instagram img {
+  display: flex;
+  margin-left: 15px;
+}
+
+.logo-facebook img {
+  display: flex;
+  margin-left: 10px;
+}
+
+.logo-map {
+  display: flex;
+  margin-right: 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.logo-map img {
+  margin-right: 10px;
+}
+
+.layout-logo {
+  height: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(145 149 149);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .navbar {
-  
+
 }
