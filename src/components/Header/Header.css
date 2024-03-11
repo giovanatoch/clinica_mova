@@ -8,7 +8,7 @@
 }
 
 .acesso-rapido {
-  background-color: rgb(14, 102, 102);
+  background-color: #A65400;
   height: 2.5em;
   display: flex;
   align-items: center;
@@ -20,19 +20,35 @@
   align-items: center;
 }
 
+.logo {
+  margin-left: 10em;
+}
+
 .logo-instagram img {
   display: flex;
-  margin-left: 15px;
+  margin-left: 35px;
 }
 
 .logo-facebook img {
   display: flex;
-  margin-left: 10px;
+  margin-left: 15px;
+}
+
+.traço {
+  display: flex;
+  margin-left: 20px;  
+}
+
+.fale-conosco {
+  display: flex;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
 }
 
 .logo-map {
   display: flex;
-  margin-right: 15px;
+  margin-right: 35px;
   text-decoration: none;
   color: white;
   font-size: 14px;
@@ -46,8 +62,8 @@
   height: 6em;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  background-color: rgb(145 149 149);
+  justify-content: space-between;
+  background-color: #F79836;
 }
 
 .logo {
@@ -56,5 +72,9 @@
 }
 
 .navbar {
+  margin-right: 10em;
+}
 
+.navbar a{
+  margin-left: 20px;
 }
